@@ -1758,3 +1758,27 @@ p.form-message.success, p.form-message.error {
       cursor: pointer; }
 
 /*# sourceMappingURL=style.css.map */
+h4.title.logoprofiledata {
+  position: absolute;
+  top: 22px;
+  font-size: 61px;
+}
+
+.header-image img {
+  position: relative;
+  z-index: 5;
+  top: -50px;
+  width: 91%;
+  margin-left: 20px;
+}
+
+.header-image::before {
+
+  top: 58% !important;
+
+}
+
+.header-image::after {
+  bottom: 30px !important;
+
+}
